@@ -1,0 +1,19 @@
+{
+  "name": "electron-myapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:cjg125/electron-myapp.git",
+  "author": "caojungang <caojungang@sogou-inc.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . myapp --out=.. --platform=mas --arch=x64 --overwrite --icon=public/icon.icns"
+  },
+  "devDependencies": {
+    "electron": "^1.6.11",
+    "electron-packager": "^8.7.2"
+  },
+  "dependencies": {
+    "user-home": "^2.0.0"
+  }
+}
